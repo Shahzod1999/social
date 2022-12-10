@@ -1,0 +1,56 @@
+.container {
+    margin: 5rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    font-family: sans-serif;
+    padding: 2.2rem 1.8rem;
+    margin: 1rem;
+    border: 2px solid #000000;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 80px;
+}
+
+p {
+    font-weight: 700;
+}
+
+.para {
+    width: 20rem;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 17px;
+    background-color: #000000;
+    color: white;
+}
+
+.box:hover {
+    color: white;
+    background-color: #FF3377;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: red;
+    background: white;
+}
